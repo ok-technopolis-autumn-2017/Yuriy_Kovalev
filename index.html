@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ToDo Application</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <div class="todo-widget">
+      <header class="todo-widget__header">To Do...</header>
+      <div class="todo-widget__control">
+        <div class="small-section">
+          <input class="todo-widget__add-text"
+              placeholder="I swear I'll do ..." type="text">
+          <button class="todo-widget__add-btn">Add</button>
+        </div>
+        <div class="small-section">
+          <label><input name="todo-widget__filter" type="radio" checked>All</label>
+          <label><input name="todo-widget__filter" type="radio">Active</label>
+          <label><input name="todo-widget__filter" type="radio">Finished</label>
+        </div>
+      </div>
+      <main class="todo-widget__list">
+          <p class="todo-widget__item todo-widget__item_done">
+              <input type="checkbox" checked>
+              <span class="todo-widget__item-text">Make my frontend homework, pt 1.</span>
+          </p>
+          <p class="todo-widget__item">
+              <input type="checkbox">
+              <span class="todo-widget__item-text">Make my frontend homework, pt 2.</span>
+          </p>
+          <p class="todo-widget__item">
+              <input type="checkbox">
+              <span class="todo-widget__item-text">Make my frontend homework, pt 3.</span>
+          </p>
+      </main>
+  </div>
+
+</body>
+</html>
