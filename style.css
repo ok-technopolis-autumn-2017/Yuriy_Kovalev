@@ -1,0 +1,43 @@
+.todo-widget {
+  width: 400px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 15px;
+  background: #93bcff;
+}
+
+.todo-widget .todo-widget__header {
+  text-align: center;
+  font-size: 1.5em;
+  background: #4286f4;
+}
+
+.todo-widget__control {
+  padding: 10px 0;
+  border-bottom: 1px solid #0060ff;
+}
+
+.todo-widget__add-btn {
+  height: 30px;
+  width: 30%;
+}
+
+.todo-widget__add-text {
+  height: 30px;
+  width: 65%;
+}
+
+.todo-widget__item {
+
+}
+
+.todo-widget__item_done {
+  text-decoration: line-through;
+}
+
+
+
+.small-section {
+  margin: 5px 0;
+}
